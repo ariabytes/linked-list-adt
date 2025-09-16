@@ -45,7 +45,17 @@ public class Main {
 		System.out.println(s.toString());
 		System.out.println(s.size());
 
+		s.clear();
+		System.out.println("After s.clear(): " + s.toString());
 		
+		System.out.println(s.size());
+		s.addFirst("Add First");
+		s.addLast("Add Last");
+		s.addFirst("New First");
+
+		System.out.println(s.toString());
+
+	
 	}
 
 }

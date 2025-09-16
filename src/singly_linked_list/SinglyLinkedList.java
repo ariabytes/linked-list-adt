@@ -198,7 +198,9 @@ public class SinglyLinkedList<Z> implements SinglyLinkedListInterface<Z> {
 		}
 		return -1; // not found
 		}
-		public String toString() {
+
+	@Override
+	public String toString() {
 		StringBuilder sb = new StringBuilder("[");
 		Node<Z> current = head;
 		while (current != null) {
